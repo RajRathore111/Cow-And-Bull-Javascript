@@ -1,6 +1,12 @@
+@font-face { 
+			font-family: Calvin and Hobbes; 
+			src: url('http://www.mediafont.com/storage/contents/4522/CALVINN.TTF'); 
+			}
+
 body {
 	background: ##f3dc3a;
-	background-image: url("./images/zenbg-1.png"), url("./images/zenbg-2.png");
+	//background-image: url("./images/zenbg-1.png"), url("./images/zenbg-2.png");
+	background-color: black;
 	background-repeat: repeat-x, repeat;
 }
 .resultScreen{
@@ -54,6 +60,7 @@ input{
 .cowAndBullTitle
 {
  font-family:Calvin and Hobbes;
+ color: white;
  font-size: 50px;
  position:absolute;
  z-index:15;
